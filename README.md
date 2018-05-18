@@ -1,6 +1,6 @@
 # gummi_ee_handshake
 
-![](https://github.com/frederico-klein/gummi_ee_handshake.wiki/blob/master/images/handshake_dovetail.png "New handshake end effector with dovetail end.")
+![](https://raw.githubusercontent.com/wiki/frederico-klein/gummi_ee_handshake/images/handshake_dovetail.png "New handshake end effector with dovetail end.")
 
 
 Package for definitions of the handshake End Effector.
