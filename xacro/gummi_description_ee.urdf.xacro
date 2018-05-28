@@ -95,17 +95,19 @@
   </link>
   <joint
     name="forearm_roll"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.043506 -0.00023376 -0.019876"
-      rpy="0 0 0" />
+      rpy="-1.570796327  0 0" />
     <parent
       link="lowerarm_preroll_d" />
     <child
       link="lowerarm" />
     <axis
-      xyz="-1 0 0" />
+      xyz="1 0 0" />
     <limit
+      lower="-2.35"
+      upper="1.57"
       effort="0"
       velocity="1" />
   </joint>
@@ -160,10 +162,10 @@
     <child
       link="wrist" />
     <axis
-      xyz="0 1 0" />
+      xyz="0 -1 0" />
     <limit
       lower="-1"
-      upper="1"
+      upper="0.65"
       effort="0"
       velocity="0" />
   </joint>
