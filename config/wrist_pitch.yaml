@@ -18,3 +18,9 @@ gains:
     P: 0.03
     I: 0.0
     D: 0.2
+restingPoseAngle: 0.0
+
+    # These PID values will be faster (instantly reach position but not overshoot)
+    # P: 0.066    # effects deceleration, Higher number, causes later deceleration
+    # I: 0.00001  # i should be very small (VERY SMALL!!!!), will cause hysterysis
+    # D: 0.19     # Effects how much it fights force to reach destination, larger value more acceleration
